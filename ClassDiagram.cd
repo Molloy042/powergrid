@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Observer">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAECAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PGController">
+    <Position X="38.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEQAACEAAAQAAAAABQEAAAAAAAABAACBAQQAQACMAAE=</HashCode>
+      <FileName>PGController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PGGameEngine">
+    <Position X="32.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAAAAAAEAAAAAAAAAAAAAAAAAAQAAIAAIAAA=</HashCode>
+      <FileName>PGGameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PGModel">
+    <Position X="6.25" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IEAgECQaKggAAAAAACkAACAAABIBSgKCAAAAAIAFWBg=</HashCode>
+      <FileName>PGModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PGView">
+    <Position X="33" Y="3.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgAARAiAABCIAQEAAAEABAAAAEABEAAIAABAAAAMAAA=</HashCode>
+      <FileName>PGView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PGWindow">
+    <Position X="34.25" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAACIEBAQBIEBEEAAABADAAAEGCAAAAAAABgwAAGAAA=</HashCode>
+      <FileName>PGWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerPlantObserver">
+    <Position X="10.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerPlantObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject">
+    <Position X="6.5" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAgAAAAAEAIAAAAAAAAAAAACAAAAAQAAAAAA=</HashCode>
+      <FileName>Subject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="City">
+    <Position X="3.5" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADAQIAAEAIIAAAAAEAAAAAAAEAAAAQAA=</HashCode>
+      <FileName>City.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="House">
+    <Position X="2" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAIAEUEBAAAAAgABCAAAIAhAAIAAA=</HashCode>
+      <FileName>House.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map">
+    <Position X="0.75" Y="11.5" Width="4.5" />
+    <NestedTypes>
+      <Typedef Name="Map::RegionPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Map.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="Map::CityPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Map.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="Map::MapNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Map.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEEAQAAAJAAEAAQAAAAMAAAEIEFAAAAAAAMAABAYAA=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Region">
+    <Position X="0.5" Y="7.5" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="Region::CityPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Region.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAgAAAEAABAAAAIAAAAIAEAAAEAAAEAAAAAAA=</HashCode>
+      <FileName>Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coal">
+    <Position X="16.25" Y="13.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEEA=</HashCode>
+      <FileName>Coal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbage">
+    <Position X="26.75" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAEA=</HashCode>
+      <FileName>Garbage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Oil">
+    <Position X="19.5" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAEA=</HashCode>
+      <FileName>Oil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerPlant">
+    <Position X="10" Y="13.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAECACAAAgARAFAAACAAAAoIAgAIAAIBAQA=</HashCode>
+      <FileName>PowerPlant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerPlantMarket">
+    <Position X="13.75" Y="11.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerPlantMarket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerPlantObserverView">
+    <Position X="10" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAAIAAAAAAFAUAEAAAAAAgAAAAAAAgAA=</HashCode>
+      <FileName>PowerPlantObserverView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerPlantSubject">
+    <Position X="13.5" Y="7.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerPlantSubject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resource">
+    <Position X="20" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAAIAAAAAACAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Resource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceMarket">
+    <Position X="13" Y="13.5" Width="3" />
+    <NestedTypes>
+      <Typedef Name="ResourceMarket::unint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ResourceMarket.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QIIQCQWKAAAAIAABAJAgIAAAQBAACCAAISIGAAACCAA=</HashCode>
+      <FileName>ResourceMarket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uranium">
+    <Position X="23" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>Uranium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Building">
+    <Position X="6.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Building.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bureaucracy">
+    <Position X="26.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bureaucracy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuyingResources">
+    <Position X="20.25" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BuyingResources.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameProcedure">
+    <Position X="19.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAAAAAIAAAAAAAAAAAAAAABAAAAAAEAAAAAAA=</HashCode>
+      <FileName>GameProcedure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhasesInterface">
+    <Position X="15" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>PhasesInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerPlantAuction">
+    <Position X="11.75" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PowerPlantAuction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aggressive">
+    <Position X="30.25" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Aggressive.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defensive">
+    <Position X="26.5" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Defensive.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Random">
+    <Position X="22.75" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Random.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Strategy">
+    <Position X="26.5" Y="7.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryHandler">
+    <Position X="29.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="MemoryHandler::PlayerPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MemoryHandler::CityPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MemoryHandler::RegionPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MemoryHandler::CoalPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MemoryHandler::OilPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MemoryHandler::GarbagePtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="MemoryHandler::UraniumPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MemoryHandler.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAUSIQiAEAwAQAACgAAAARAAAAgAAQAAAAAgAAAAA=</HashCode>
+      <FileName>MemoryHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="37.5" Y="9.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAxABICAAAAAQghAEgIBAAAAAFAQTIAAAEgSAYgBA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoringTrack">
+    <Position X="26.5" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="ScoringTrack::PlayerPtr" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ScoringTrack.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="ScoringTrack::unint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ScoringTrack.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAAEAQAAAAAACAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScoringTrack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummaryCards">
+    <Position X="23.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAABAAEAAAAIAAABAAAAgAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SummaryCards.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="unint" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HousePtr" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>City.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CoalPtr" Collapsed="true">
+    <Position X="16.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceMarket.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OilPtr" Collapsed="true">
+    <Position X="19.75" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceMarket.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GarbagePtr" Collapsed="true">
+    <Position X="27" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceMarket.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UraniumPtr" Collapsed="true">
+    <Position X="23.25" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceMarket.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ushort" Collapsed="true">
+    <Position X="24" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="PhaseType">
+    <Position X="21.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQQAAAAAAAAACAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PGModel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StepType">
+    <Position X="19.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>PGModel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ColorType">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAIAAAAAAAAAAAgAAAAAAEAgAAAAgAAA=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ResourceType">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAgCAAAAAABAAAAAAAAAAAQ=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CommandList.H">
+      <UniqueIdentifier>{c847610a-a0be-41db-945e-3ed1e930a068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MVC.H">
+      <UniqueIdentifier>{da642bde-e907-4bcc-8b86-5a3ecc977c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map.H">
+      <UniqueIdentifier>{c7cfcff8-4ea5-4e82-9452-f683403202f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources.H">
+      <UniqueIdentifier>{a423a9bb-e642-4cbe-bfb4-e1fa40204eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandList.CPP">
+      <UniqueIdentifier>{4ac5c108-3a5f-4b28-8454-0d72edfa4a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MVC.CPP">
+      <UniqueIdentifier>{8e9961e4-b136-4488-b789-4b2b9c57fb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources.CPP">
+      <UniqueIdentifier>{58c2f0d8-07c1-42cd-af80-c9c96e8af428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map.CPP">
+      <UniqueIdentifier>{0403b25d-11ae-4c34-966f-0ad270316285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PowerPlants.cpp">
+      <UniqueIdentifier>{0aa6d7df-d003-4da6-ba85-a3205417c77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player_strategy.cpp">
+      <UniqueIdentifier>{059f88b8-5deb-458e-b80f-05a2ff9465a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Phases.cpp">
+      <UniqueIdentifier>{34894b86-5443-4e2a-a220-7ce7330231fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player_and_More.cpp">
+      <UniqueIdentifier>{bf31447b-acfa-4784-989c-00f229de91ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Phases.h">
+      <UniqueIdentifier>{efe73419-3150-452f-8539-db80b7f090a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player_Strategy.h">
+      <UniqueIdentifier>{55aa2391-0aa4-451d-8947-99c6ab22f963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player_and_More.h">
+      <UniqueIdentifier>{6448b167-3884-466d-8145-8038ecdf46e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Map.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>Source Files\Map.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>Source Files\Map.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Coal.cpp">
+      <Filter>Source Files\Resources.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Garbage.cpp">
+      <Filter>Source Files\Resources.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Oil.cpp">
+      <Filter>Source Files\Resources.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files\Resources.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMarket.cpp">
+      <Filter>Source Files\Resources.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Uranium.cpp">
+      <Filter>Source Files\Resources.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PGController.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PGGameEngine.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PGModel.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PGView.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PGWindow.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\MVC.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPlantMarket.cpp">
+      <Filter>Source Files\PowerPlants.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPlantObserverView.cpp">
+      <Filter>Source Files\PowerPlants.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPlantSubject.cpp">
+      <Filter>Source Files\PowerPlants.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggressive.cpp">
+      <Filter>Source Files\Player_strategy.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\Player_strategy.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Defensive.cpp">
+      <Filter>Source Files\Player_strategy.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Source Files\Phases.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Bureaucracy.cpp">
+      <Filter>Source Files\Phases.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcedure.cpp">
+      <Filter>Source Files\Phases.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyingResources.cpp">
+      <Filter>Source Files\Phases.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPlantAuction.cpp">
+      <Filter>Source Files\Phases.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPlant.cpp">
+      <Filter>Source Files\PowerPlants.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>Source Files\Map.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHandler.cpp">
+      <Filter>Source Files\Player_and_More.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Player_and_More.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SummaryCards.cpp">
+      <Filter>Source Files\Player_and_More.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoringTrack.cpp">
+      <Filter>Source Files\Player_and_More.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player_and_More.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coal.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Garbage.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Oil.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PGController.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PGGameEngine.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PGModel.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PGView.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Uranium.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <Filter>Header Files\Map.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Map.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Header Files\Map.H</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMarket.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PGWindow.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPlantObserver.h">
+      <Filter>Header Files\MVC.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files\Phases.h</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyingResources.h">
+      <Filter>Header Files\Phases.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcedure.h">
+      <Filter>Header Files\Phases.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PhasesInterface.h">
+      <Filter>Header Files\Phases.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPlantAuction.h">
+      <Filter>Header Files\Phases.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Bureaucracy.h">
+      <Filter>Header Files\Phases.h</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>Header Files\Map.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Defensive.h">
+      <Filter>Header Files\Player_Strategy.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggressive.h">
+      <Filter>Header Files\Player_Strategy.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPlant.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPlantMarket.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPlantObserverView.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerPlantSubject.h">
+      <Filter>Header Files\Resources.H</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>Header Files\Player_Strategy.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Player_Strategy.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHandler.h">
+      <Filter>Header Files\Player_and_More.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player_and_More.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoringTrack.h">
+      <Filter>Header Files\Player_and_More.h</Filter>
+    </ClInclude>
+    <ClInclude Include="SummaryCards.h">
+      <Filter>Header Files\Player_and_More.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Player_and_More.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

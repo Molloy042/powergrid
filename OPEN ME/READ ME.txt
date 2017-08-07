@@ -1,0 +1,33 @@
+Dear user, 
+
+Please make sure to install and build the Boost library into your computer using the visual studio prompt and its
+commands in order to be able to run the program without compile errors! 
+
+The game runs through all five phases of the game and can update to all different steps. 
+
+The implementation of the game was made in order to allow the user to enter commands onto the input line. For instance, after each phase, 
+a window of command line appears and allow the user to choose between many command options such as: 
+
+		"DONE",
+		"CLEAR", 
+		"SHOW AVAILABLE RESOURCES", 
+		"HELP",
+		"SHOW MAP",
+		"SHOW HOUSE AVAILABILITY",
+		"SHOW PLAYER INFO"
+
+Be careful to type these commmands in CAPS in order to run its function. This tool was created to help and serve the players and for 
+additional features. 
+
+-> If you wish to exit this mode, you just have to type: DONE, and it will move to the next phase.  
+
+Thank you for trying Power Grid Concordia 2016 game! It was very fun and instructive to learn about design patterns and the world of C++. 
+
+Have a great summer! 
+
+Sincerely, 
+
+TEAM U - Comp345 - WINTER 2016 
+
+(13/04/2016) 
+
